@@ -1,4 +1,5 @@
 * {
+    
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -32,6 +33,7 @@ button {
     font-size: 1.5em;
     border: none;
     background-color: #ede5ce;
+    color: #000000;
 }
 
 .operador {
@@ -87,7 +89,8 @@ button:focus {
     justify-content: space-between;
     word-break: break-all;
     box-shadow: 0px 0px 0px 10px #00000033;
-    color: aliceblue;
+    color: #ffff;
+    overflow-x: auto;
 }
 
 #valor-actual {
@@ -110,12 +113,14 @@ button:focus {
     button, .operador, .col-2 {
         font-size: 1.2em;
         border-radius: 15px;
+        color: #000000;
     }
 
     .display {
         padding: 10px;
         margin: 5px 5px 15px;
         box-shadow: 0px 0px 0px 7px #00000033;
+        overflow-x: auto;
     }
 
     #valor-actual {
@@ -137,12 +142,14 @@ button:focus {
     button, .operador, .col-2 {
         font-size: 1em;
         border-radius: 10px;
+        color: #000000;
     }
 
     .display {
         padding: 10px;
         margin: 10px 10px 15px;
         box-shadow: 0px 0px 0px 5px #00000033;
+        overflow-x: auto;
     }
 
     #valor-actual {
@@ -163,12 +170,14 @@ button:focus {
     button, .operador, .col-2 {
         font-size: 0.8em;
         border-radius: 5px;
+        color: #000000;
     }
 
     .display {
         padding: 10px;
         margin: 5px 5px 5px;
         box-shadow: 0px 0px 0px 3px #00000033;
+        overflow-x: auto;
     }
 
     #valor-actual {
